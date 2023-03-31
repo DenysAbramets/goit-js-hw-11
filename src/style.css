@@ -1,80 +1,75 @@
-img{
-    display: block;
-    width: 300;
-    height: 200;
+img {
+  display: block;
+  width: 300;
+  height: 200;
 }
 
-.container{
-width: 1280px;
-margin: auto;
-height: 30px;
-padding-left: 15px;
-padding-right: 15px;
-
+.container {
+  width: 1280px;
+  margin: auto;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.photo-card{
- width: 300px;
- box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%); 
- border-radius: 0px 0px 4px 4px;
- background-color: #fff;
-}
-
-.header{
-    height: 70px;
-    background-color:rgb(155, 155, 219);
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+.photo-card {
+  width: 300px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-.info{
-    display: flex;
-}
-.info-item{
-text-align: center;
+.header {
+  height: 70px;
+  background-color: rgb(155, 155, 219);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-.seacrh-form{
-    margin: 25px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.info {
+  display: flex;
+}
+.info-item {
+  text-align: center;
 }
 
-
-.form__seacrh{
-    width: 250px;
-    height:25px;
-    position: relative;
-}
-.form__button{
-    position: absolute;
-    height:30px;
-    cursor: pointer;
-    /* right: 216px; */
-    
-
-}
-.load-more{
-    cursor: pointer;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: yellow;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    padding:5px;
-    border-radius: 5px;
+.seacrh-form {
+  margin: 25px;
 }
 
-.is-hidden{
-    display: none;
+.form__seacrh {
+  width: 250px;
+  height: 25px;
+  position: relative;
 }
-.load-more{
+.form__button {
+  position: absolute;
+  height: 30px;
+  cursor: pointer;
+}
+.load-more {
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: yellow;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
 
+.is-hidden {
+  display: none;
+}
+.load-more {
 }

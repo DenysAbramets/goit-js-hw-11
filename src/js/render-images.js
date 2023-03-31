@@ -1,9 +1,7 @@
-
-
-
- export  function renderCollectionsCards(images){
-return images.hits.map(image =>{
-    return `<div class="photo-card ">
+export function renderCollectionsCards(images) {
+  return images.hits
+    .map(image => {
+      return `<div class="photo-card ">
     <a href="${image.largeImageURL}">
     <img src="${image.previewURL}" alt="${image.tags}" loading="lazy"></a>
     <div class="info">
@@ -20,18 +18,7 @@ return images.hits.map(image =>{
         <b>Downloads ${image.downloads}</b>
       </p>
     </div>
-  </div>`
-}).join('')
+  </div>`;
+    })
+    .join('');
 }
-
-
-
-
-
-
-
-
-
-
-
-
