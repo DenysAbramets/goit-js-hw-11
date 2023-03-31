@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
-  <body>
-    <h1>HOMEWORK</h1>
+  <body class="page">
+    <div class="container">
+      <header class="header">
+        <form class="seacrh-form">
+          <input
+          class="form__seacrh" 
+          type="text"
+          placeholder="Search images..."
+          name="searchQuery"
+          autocomplete="off"
+          >
+          <button type="submit" class="form__button"><svg width="20" height="20" ><use href="./svg/seacrh1.svg#icon-search"></use></svg></button>
+        </form>
+      </header>
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+      <button type="button" class="load-more">Load more</button>
+
+
+    </div>
+
+    <script src="./index.js" type="module"></script>
+
+    
   </body>
 </html>
