@@ -1,8 +1,11 @@
 
+
+
  export  function renderCollectionsCards(images){
 return images.hits.map(image =>{
-    return `<div class="photo-card">
-    <img src="${image.previewURL}" alt="${image.tags}" loading="lazy" />
+    return `<div class="photo-card ">
+    <a href="${image.largeImageURL}">
+    <img src="${image.previewURL}" alt="${image.tags}" loading="lazy"></a>
     <div class="info">
       <p class="info-item">
         <b>Likes ${image.likes}</b>
@@ -20,6 +23,7 @@ return images.hits.map(image =>{
   </div>`
 }).join('')
 }
+
 
 
 

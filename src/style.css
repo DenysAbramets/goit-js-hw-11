@@ -1,4 +1,5 @@
 img{
+    display: block;
     width: 300;
     height: 200;
 }
@@ -20,7 +21,7 @@ padding-right: 15px;
 
 .header{
     height: 70px;
-    background-color:rgb(36, 90, 110);
+    background-color:rgb(155, 155, 219);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -36,7 +37,6 @@ padding-right: 15px;
     display: flex;
 }
 .info-item{
-font-size: 15;
 text-align: center;
 }
 
@@ -52,14 +52,29 @@ text-align: center;
 }
 .form__button{
     position: absolute;
-    height:25px;
+    height:30px;
+    cursor: pointer;
     /* right: 216px; */
     
 
 }
 .load-more{
+    cursor: pointer;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.is-hidden{
+    display: none;
+}
+.load-more{
+
 }
